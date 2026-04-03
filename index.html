@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL Nexus | Transformo ideas en soluciones digitales</title>
+    <meta name="description"
+        content="Servicios de desarrollo web a medida, automatización de procesos y desarrollo de aplicaciones web y móviles.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="ph-fill ph-hexagon"></i>
+                JL Nexus
+            </a>
+            <nav class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#proceso">Proceso</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#beneficios">Beneficios</a>
+            </nav>
+            <a href="#contacto" class="btn btn-outline">Contacto</a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#servicios">Servicios</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#contacto" class="btn btn-primary" style="margin-top: 1rem; width: 100%;">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="badge">Innovación y Eficiencia</div>
+                <h1>Transformo ideas en <span class="text-gradient">soluciones digitales</span></h1>
+                <p>Impulso el crecimiento de tu negocio mediante desarrollo web a medida, software escalable y
+                    automatización de procesos adaptada a tus necesidades.</p>
+                <div class="hero-actions">
+                    <a href="#contacto" class="btn btn-primary">Solicitar cotización</a>
+                    <a href="#portafolio" class="btn btn-secondary">Ver proyectos</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-up delay-1">
+                <div class="glass-card visual-mockup">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="code-line w-75"></div>
+                        <div class="code-line w-50"></div>
+                        <div class="code-line w-100"></div>
+                        <div class="code-line w-25 mt-2"></div>
+                        <div class="stats-row">
+                            <div class="stat-box"></div>
+                            <div class="stat-box"></div>
+                            <div class="stat-box dark"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="servicios">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Soluciones Integrales</h2>
+                <p class="section-subtitle">Servicios tecnológicos de alto nivel para escalar tu negocio hacia el
+                    futuro.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card glow-on-hover anim-enter">
+                    <div class="service-icon">
+                        <i class="ph ph-desktop"></i>
+                    </div>
+                    <h3>Desarrollo Web a Medida</h3>
+                    <p>Creación de sitios web y aplicaciones web modernas, rápidas y seguras, diseñadas específicamente
+                        para cumplir tus objetivos comerciales.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card glow-on-hover anim-enter delay-1">
+                    <div class="service-icon purple">
+                        <i class="ph ph-lightning"></i>
+                    </div>
+                    <h3>Automatización de Procesos</h3>
+                    <p>Optimiza tiempos y reduce costos integrando sistemas y automatizando flujos de trabajo
+                        repetitivos en tu empresa.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card glow-on-hover anim-enter delay-2">
+                    <div class="service-icon cyan">
+                        <i class="ph ph-device-mobile"></i>
+                    </div>
+                    <h3>Desarrollo de Apps</h3>
+                    <p>Aplicaciones nativas e híbridas para iOS y Android que ofrecen experiencias de usuario impecables
+                        e intuitivas de principio a fin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section class="workflow section-padding bg-darker" id="proceso">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Proceso de Trabajo</h2>
+                <p class="section-subtitle">Una metodología ágil y transparente desde la idea inicial hasta el
+                    lanzamiento y soporte continuo.</p>
+            </div>
+            <div class="workflow-steps">
+                <div class="step anim-enter">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>Análisis</h4>
+                        <p>Evaluamos tus necesidades y objetivos para trazar la mejor arquitectura tecnológica.</p>
+                    </div>
+                </div>
+                <div class="step anim-enter delay-1">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>Desarrollo</h4>
+                        <p>Construimos tu solución utilizando las tecnologías más avanzadas y estándares actuales.</p>
+                    </div>
+                </div>
+                <div class="step anim-enter delay-2">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>Implementación</h4>
+                        <p>Desplegamos el producto final realizando pruebas exhaustivas de rendimiento y seguridad.</p>
+                    </div>
+                </div>
+                <div class="step anim-enter delay-3">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h4>Soporte</h4>
+                        <p>Aseguramos el funcionamiento óptimo post-lanzamiento con mantenimiento y mejoras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-padding" id="portafolio">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">Ejemplos de Aplicación</h2>
+                <p class="section-subtitle">Soluciones altamente demandadas por empresas y despachos para optimizar sus
+                    operaciones.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Porfolio Item 1 -->
+                <div class="portfolio-item anim-enter">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+                            alt="Flujo de Automatización">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="category">Automatización / Empresas</span>
+                        <h4>Onboarding y Gestión de Clientes</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Recepción de
+                            nuevos leads, generación automática de documentos y contratos, envío por email y registro
+                            directo al CRM de tu empresa eliminando el trabajo manual.</p>
+                    </div>
+                </div>
+                <!-- Porfolio Item 2 -->
+                <div class="portfolio-item anim-enter delay-1">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                            alt="SaaS Dashboard Analytics">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="category">Desarrollo Web / SaaS</span>
+                        <h4>Portal Interno y Analíticas</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Un panel de
+                            control web a medida donde puedes monitorear en tiempo real métricas, operaciones en curso y
+                            finanzas, centralizando la información de todo el despacho.</p>
+                    </div>
+                </div>
+                <!-- Porfolio Item 3 -->
+                <div class="portfolio-item anim-enter delay-2">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop"
+                            alt="Mobile App UI">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="category">Apps / Experiencia de Usuario</span>
+                        <h4>Plataforma de Citas y Cotizaciones</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Crea una
+                            experiencia fluida para tus clientes mediante un portal moderno donde coticen servicios,
+                            agenden reuniones y realicen pagos desde su celular 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits section-padding bg-darker" id="beneficios">
+        <div class="container benefits-container">
+            <div class="benefits-visual fade-in-up">
+                <div class="glass-card feature-list">
+                    <div class="feature-item">
+                        <i class="ph-fill ph-check-circle text-blue"></i>
+                        <span>Arquitectura Serverless disponible</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="ph-fill ph-check-circle text-purple"></i>
+                        <span>Reduciendo tiempos de carga un 60%</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="ph-fill ph-check-circle text-cyan"></i>
+                        <span>Código limpio y documentado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits-content fade-in-up delay-1">
+                <h2 class="section-title">El valor de trabajar con estándares modernos</h2>
+                <div class="benefit-points">
+                    <div class="point">
+                        <div class="point-icon"><i class="ph ph-rocket-launch"></i></div>
+                        <div>
+                            <h4>Máxima Rapidez</h4>
+                            <p>Optimización total usando la última tecnología para que tus apps carguen al instante.</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="point-icon"><i class="ph ph-arrows-out-line-horizontal"></i></div>
+                        <div>
+                            <h4>100% Escalable</h4>
+                            <p>Desarrollos preparados para crecer junto con tu negocio sin necesidad de rehacer bases.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="point-icon"><i class="ph ph-headset"></i></div>
+                        <div>
+                            <h4>Soporte Dedicado</h4>
+                            <p>Acompañamiento continuo post-entrega para resolver dudas o añadir nuevas integraciones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Lo que dicen los clientes</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card anim-enter">
+                    <div class="stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p>"La automatización que implementaron nos ahorró horas de trabajo manual cada semana. El diseño es
+                        increíblemente rápido y funcional."</p>
+                    <div class="author">
+                        <div class="avatar">CT</div>
+                        <div class="author-info">
+                            <h5>Carlos Torres</h5>
+                            <span>CEO, TechGrowth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card anim-enter delay-1">
+                    <div class="stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p>"Excelente atención al detalle. Rediseñaron nuestra plataforma web y la tasa de conversión subió
+                        un 40% en solo un mes."</p>
+                    <div class="author">
+                        <div class="avatar">MV</div>
+                        <div class="author-info">
+                            <h5>María Vargas</h5>
+                            <span>Directora de Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA & Contact Section -->
+    <section class="contact-section section-padding" id="contacto">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in-up">
+                    <h2 class="section-title">¿Listo para transformar tu idea en realidad?</h2>
+                    <p>Cuéntame sobre tu proyecto y descubramos cómo podemos trabajar juntos para llevarlo al siguiente
+                        nivel.</p>
+
+                    <div class="contact-details mt-4">
+                        <div class="contact-item">
+                            <i class="ph ph-envelope-simple"></i>
+                            <span>joseluissolorzanogtz@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ph ph-map-pin"></i>
+                            <span>Remoto / Global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass-card fade-in-up delay-1">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre / Empresa</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Servicio de interés</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Selecciona un servicio</option>
+                                <option value="web">Desarrollo Web</option>
+                                <option value="automatizacion">Automatización</option>
+                                <option value="app">Desarrollo de App</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Breve descripción de lo que necesitas..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" id="submitBtn">
+                            <span>Enviar mensaje</span>
+                            <i class="ph ph-paper-plane-right"></i>
+                        </button>
+                        <div id="formStatus" class="form-status hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="ph-fill ph-hexagon"></i>
+                    JL Nexus
+                </a>
+                <p>Desarrollo y soluciones tecnológicas integrales para impulsar el futuro de tu negocio.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jose-luis-sol%C3%B3rzano-guti%C3%A9rrez-a375b525b/"
+                        target="_blank" aria-label="LinkedIn" title="Mi perfil de LinkedIn"><i
+                            class="ph ph-linkedin-logo"></i></a>
+                    <a href="https://www.instagram.com/joseluis.dx/" target="_blank" aria-label="Instagram"
+                        title="Mi perfil de Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="https://joseluisspace.github.io/portafolio/" target="_blank"
+                        aria-label="Portafolio Anterior" title="Visita mi portafolio web anterior"><i
+                            class="ph ph-briefcase"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#">Desarrollo Web</a></li>
+                    <li><a href="#">Automatización</a></li>
+                    <li><a href="#">Aplicaciones Móviles</a></li>
+                    <li><a href="#">Auditoría Técnica</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#proceso">Metodología</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 JL Nexus. Todos los derechos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Privacidad</a>
+                <a href="#">Términos</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
